@@ -1,0 +1,72 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; 
+  }
+  
+  /* Estilização do corpo da página */
+  body {
+    background-color: white; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+  }
+  
+  /* Estilização do contêiner principal */
+  .container {
+    width: 100%; 
+    background-color: yellow; 
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  th:nth-child(1), td:nth-child(1) {/*primeira celula do cabeçalho e linhas*/ 
+    width: 5%; /* Largura mínima para o ID */
+    white-space: nowrap; 
+    text-align: center;
+  }
+
+  /* Estilo do título principal */
+  h1 {
+    text-align: center; 
+    margin-top: 20px;
+    margin-bottom: 40px; 
+    color:  green;
+  }
+  
+  /* Estilo geral da tabela */
+  #userTable {
+    width: 100%; /* A tabela ocupa toda a largura disponível da div */
+    height: 60vh;
+    border-collapse: collapse;
+  }
+  
+  /* Estilização das células da tabela */
+  th, td {
+    padding: 15px; /* Espaçamento interno nas células */
+    text-align: center; 
+    border-bottom: 5px;
+  }
+  
+  /* Estilo do cabeçalho da tabela */
+  th {
+    background-color: #4CAF50; 
+    padding: 20px;
+    color: white; 
+  }
+  
+  /* Estilização de linhas pares da tabela */
+  tr:nth-child(even) {/*todos as linhas pares */
+    background-color:white; 
+  }
+  
+  /* Garante que o conteúdo das células não transborde/quebra linha */
+  td {
+    word-wrap:break-word ;
+    
+  }
+ 
