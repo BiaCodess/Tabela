@@ -17,11 +17,12 @@
   /* Estilização do contêiner principal */
   .container {
     width: 100%; 
-    background-color: yellow; 
+    max-width: 1500px;
+    background-color: white; 
     padding: 20px;
-    margin-top: 40px;
     margin-left: 150px;
     margin-right: 150px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
 
   th:nth-child(1), td:nth-child(1) {/*primeira celula do cabeçalho e linhas*/ 
@@ -47,10 +48,10 @@
   
   /* Estilização das células da tabela */
   th, td {
-    padding: 15px; /* Espaçamento interno nas células */
+    padding: 5px; /* Espaçamento interno nas células */
     text-align: center; 
-    border-bottom: 5px;
-  }
+    border-bottom: 1px solid #ddd;  
+   }
   
   /* Estilo do cabeçalho da tabela */
   th {
@@ -59,10 +60,6 @@
     color: white; 
   }
   
-  /* Estilização de linhas pares da tabela */
-  tr:nth-child(even) {/*todos as linhas pares */
-    background-color:white; 
-  }
   
   /* Garante que o conteúdo das células não transborde/quebra linha */
   td {
